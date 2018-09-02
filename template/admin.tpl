@@ -3,8 +3,8 @@
 {combine_css path=$CRYPTO_PATH|cat:'template/colorpicker/colorpicker.css'}
 {combine_script id='jquery.colorpicker' load='footer' path=$CRYPTO_PATH|cat:'template/colorpicker/colorpicker.js'}
 
-{combine_css path='themes/default/js/plugins/chosen.css'}
-{combine_script id='jquery.chosen' load='footer' path='themes/default/js/plugins/chosen.jquery.min.js'}
+{combine_css id='jquery.selectize' path="themes/default/js/plugins/selectize.{$themeconf.colorscheme}.css"}
+{combine_script id='jquery.selectize' load='footer' path='themes/default/js/plugins/selectize.min.js'}
 
 
 {footer_script}
@@ -95,10 +95,8 @@ $('a.random').click(function() {
 });
 
 // multiselect
-$("select").css({
-  width: 300
-}).chosen({
-  disable_search:true,
+$('[name="activate_on[]"]').selectize({
+  plugins: ['remove_button']
 });
 
 function setThemeCustom() {
@@ -177,7 +175,7 @@ var presets = {
     </li>
     <li>
       <b>{'Activate on'|translate}</b>
-      <select name="activate_on[]" multiple>
+      <select name="activate_on[]" multiple placeholder="{'Nowhere'|translate}">
         <option value="picture" {if $crypto.activate_on.picture}selected{/if}>{'Picture comments'|translate}</option>
         {if $loaded.category}<option value="category" {if $crypto.activate_on.category}selected{/if}>{'Album comments'|translate}</option>{/if}
         <option value="register" {if $crypto.activate_on.register}selected{/if}>{'Register form'|translate}</option>

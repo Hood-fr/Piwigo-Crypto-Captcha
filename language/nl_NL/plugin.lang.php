@@ -21,7 +21,7 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['Activate on'] = 'Activeren';
-$lang['Album comments'] = 'Album commentaren';
+$lang['Album comments'] = 'Album-commentaren';
 $lang['Background color'] = 'Achtergrondkleur';
 $lang['Captcha theme'] = 'Captcha thema';
 $lang['Captcha type'] = 'Captcha type';
@@ -58,3 +58,4 @@ $lang['Background image'] = 'Achtergrondafbeelding';
 $lang['Color'] = 'Kleur';
 $lang['Image'] = 'Afbeelding';
 $lang['Only for unauthenticated users'] = 'Alleen voor niet-geverifieerde gebruikers';
+$lang['Nowhere'] = 'Nergens';
