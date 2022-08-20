@@ -1,4 +1,4 @@
-File automatically created from SVN repository.
+File automatically created from SVN or Git repository.
 
-URL: http://piwigo.org/svn/extensions/CryptograPHP 
-Revision: 29326
+URL: https://github.com/Piwigo/Piwigo-Crypto-Captcha 
+Revision: 7bd8ff982d7a63c66e28fd127f13dde674d50c26 (Tue Nov 23 10:32:35 2021 +0100)
