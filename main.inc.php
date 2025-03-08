@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Crypto Captcha
-Version: 2.2.1
+Version: 15.a
 Description: Add a captcha to register, comment, GuestBook and ContactForm pages (thanks to P@t)
-Plugin URI: http://piwigo.org/ext/extension_view.php?eid=535
+Plugin URI: https://piwigo.org/ext/extension_view.php?eid=535
 Author: Mistic
 Author URI: http://www.strangeplanet.fr
 Has Settings: true
