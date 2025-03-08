@@ -1,4 +1,4 @@
 File automatically created from SVN or Git repository.
 
 URL: https://github.com/Piwigo/Piwigo-Crypto-Captcha 
-Revision: 7bd8ff982d7a63c66e28fd127f13dde674d50c26 (Tue Nov 23 10:32:35 2021 +0100)
+Revision: 466c3e856618696747dfcabf1e59971c30dcbf32 (Sat Feb 15 22:06:04 2025 +0100)
